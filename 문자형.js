@@ -22,6 +22,6 @@ fruits = fruits.split(", "); // 공백까지 포함하여 자르기
 console.log(fruits[2]);
 
 
-
+ 
 
 
