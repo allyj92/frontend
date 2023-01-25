@@ -1,22 +1,36 @@
-console.log("hello javascript!!")
-console.log(console)
+const item1 = 3000;
+const item2 = 2000;
+const item3 = 5000;
+
+const loyalty = 1000;
+
+// console.log(item1 + loyalty)
+// console.log(item2 + loyalty)
+// console.log(item3 + loyalty)
 
 
-// var,let,const
+// function
+// function showPrice(aaa){
+    // console.log(aaa+ loyalty);
+   // return aaa + loyalty;
+// }
+// const price1 = showPrice(item1);
+// const price2 = showPrice(item2);
+// const price3 = showPrice(item3);
 
-// var는 글로벌한 이유로 사용을 지양할 것
-var name = "scalper"
+// console.log(price1)
+// console.log(price2)
+// console.log(price3)
 
-//let
-// 변수의 값을 재정의 할 필요가 있을 때
-let score = 0;
-score =2;
+// console.log(showPrice(item1))
+// console.log(showPrice(item2))
+// console.log(showPrice(item3))
 
-// const
-// 변하지 않은 값을 지정할 때, 블록 밖에서 사용x
-const name = "scalper"
-name = "codeScalper";
-console.log(name)  // 에러발생
+// 화살표 함수
+const showPrice = (price) => {
+    console.log(price + loyalty)
+}
 
-// 블록 안에서 선언 된 것은 블록 안에서만 
-//사용 가능 
+showPrice(item1)
+showPrice(item2)
+showPrice(item3)
