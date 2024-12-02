@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <style>
+    /* Write your CSS code here */
+    div{
+      width: 200px;
+      height: 200px;
+    }
+
+    p{
+      margin:0;
+    }
+
+    .box1{
+      background-color: #463bdd;
+      border :  10px solid black;
+      padding: 20px;
+    }
+
+    .box2{
+      background-color: #f3ca43;
+      margin-left:260px;
+      border :  10px solid black;
+      border-width:20px 10px;
+     
+    }
+
+
+    .box3{
+      background-color: red;
+      border:10px solid black;
+      margin-left:440px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+
+<!-- TODO:
+1. div 요소를 사용하여 3개의 상자를 만듭니다.
+2. 크기를 가로 200px 높이 200px로 설정합니다.
+3. 각 상자마다 다른 배경색을 설정합니다(카데블루, 골드, 인디언레드를 사용했습니다).
+4. 첫 번째 디브에 문단 <p> 요소를 추가하고 다음 단어를 추가합니다:
+로렘 입섬 돌러 시트 아메트, 콘섹테투르 아디피싱 엘리트. 사피엔 포트티토르 우르나 엘리멘툼 라시니아의 알리캄. 인
+이드 마그나 펄비나, 울트리시스 로렘미드, 비히클 엘리트. 알리캄 유 럭투스 니슬, 비타에 펠렌테스크 마그나. 페이즈루스
+돌로르 메투스, 라로렛 아크 콘발리스 사이트 아메트, 효율적인 돌로르.
+5. 첫 번째 디브에 검은색 10px 테두리로 20px 패딩을 배치합니다.
+6. <p> 요소의 스타일을 수정하여 모든 여백을 제거합니다.
+힌트: Chrome에서 CSS 검사기를 사용합니다.
+7. 두 번째 디브는 위아래에 20px 테두리와 좌우에 10px 테두리를 두도록 설정합니다. (목표 이미지 참조)
+8. 세 번째 디브에 10px 테두리를 두도록 설정합니다
+9. 각 상자 모서리가 서로 닿도록 다이빙의 마진을 설정합니다. (목표 이미지 참조)
+-->
+
+<div class="box1">
+  <p>로렘 입섬 돌러 시트 아메트, 콘섹테투르 아디피싱 엘리트. 사피엔 포트티토르 우르나 엘리멘툼 라시니아의 알리캄. 인
+    이드 마그나 펄비나, 울트리시스 로렘미드, 비히클 엘리트. 알리캄 유 럭투스 니슬, 비타에 펠렌테스크 마그나. 페이즈루스
+    돌로르 메투스, 라로렛 아크 콘발리스 사이트 아메트, 효율적인 돌로르.</p>
+</div>
+<div class="box2"></div>
+<div class="box3"></div>
+
+</body>
+
+</html>
