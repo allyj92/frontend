@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+
+/* 바로 밑 직계 자식 */
+
+.box > p{
+    color: firebrick;
+}
+
+/* 하위 항목 , 모두선택*/
+.box ul li {
+    color:blue;
+}
+
+/* 연결메서드 */
+ul li.done{
+    color: seagreen;
+  }
+  
+ul p.done{
+    font-size: 0.5rem;
+}  
