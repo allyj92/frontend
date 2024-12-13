@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    /* Write your CSS Code here */
+    body{
+      background-color: black;
+    }
+
+    .flag{
+      width: 900px;
+      height:  600px;
+      background-color: #ce1126;
+      position: relative;
+      border: 3px solid white;
+     
+    }
+
+    
+    .flag > div{
+      /* width: 900px; */
+      width : 100%;
+      height: 300px;
+      background-color: #002868;
+      position: absolute;
+      top: 150px; /*900의 1/4*/
+     
+    }
+
+    .flag > p {
+      text-align: center;
+      color: white;
+      font-size:4rem;
+      font-family: "Merriweather", serif;
+      margin: 0;
+    }
+
+    .flag > div > div{
+      background-color: white; 
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      /* position:absolute; */
+      position : relative;
+      /* left:220px; */
+      top:50px;
+      left: 350px;
+    }
+    
+    .flag > div div p{
+      position: absolute;
+      top: 15px;
+      left:4px;
+      /* font-size: 3.5rem;
+      font-family: "Merriweather", serif;
+      text-align: center; */
+      font-weight: 500;
+
+    }
+
+    p{
+      margin : 0;
+      font-size : 4rem;
+      text-align: center;
+      font-family: "Merriweather", serif;
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
