@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 150px 5px 200px 30px;
+      /* grid-template-rows: 1.5fr 1fr; */
+      grid-template-rows: 200px 5px 100px 5px 10px;
+    }
+
+    .red{
+      width: 150px;
+      height: 200px;
+      background-color: #E72F24;
+    }
+    .gap-h{
+      width: 5px;
+      height: 200px;
+      background-color: #000;
+    }
+    .gap-w{
+      width: 200px;
+      height: 5px;
+      background-color: #000;
+    }
+
+    .white{
+      width: 200px;
+      height: 200px;
+      background-color: #F0F1EC;
+    }
+
+    /* .gap{
+      width: 100px;
+      height: 100px;
+      background-color: #000;
+    }
+    .white{
+      width: 100px;
+      height: 100px;
+      background-color: #F0F1EC;
+    }
+    .black{
+      width: 100px;
+      height: 100px;
+      background-color: #232629;
+    }
+    .blue{
+      width: 100px;
+      height: 100px;
+      background-color: #004592;
+    }
+    .yellow{
+      width: 100px;
+      height: 100px;
+      background-color: #F9D01E;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+   <div class="red"></div>
+   <div class="gap-w"></div>
+   <div class="white"></div>
+   <div class="white"></div>
+   <div class="gap-h"></div>
+   <div class="white"></div>
+   <div class="black"></div>
+   <div class="blue"></div>
+   <div class="yellow"></div>
+  </div>
+   
+</body>
+
+</html>
