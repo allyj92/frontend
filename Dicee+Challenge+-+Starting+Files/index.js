@@ -21,3 +21,15 @@ img2.src= "http://127.0.0.1:5500/images/dice"+randomNumber2+".png";
 // img1Src는 단순히 문자열로 현재 src 경로를 저장한 것이므로, 
 // 이 변수에 아무리 무언가를 바꿔도 실제 이미지에는 반영되지 않음!
 // 이미지를 바꾸려면 img1.src를 직접 바꿔야 함!
+
+// h1 가져오기
+let mainTitle = document.getElementsByTagName("h1")[0];
+console.log(mainTitle);
+
+if(randomNumber1 > randomNumber2){
+    mainTitle.innerText = "🚩 Player 1 Wins!";
+}else if(randomNumber1 < randomNumber2){
+    mainTitle.innerText = "🚩 Player 2 Wins!";
+}else{
+    mainTitle.innerText = "Draw!";
+}
